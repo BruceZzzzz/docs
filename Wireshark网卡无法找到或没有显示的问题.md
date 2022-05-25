@@ -10,7 +10,7 @@
 
 ## 解决方案
 ### 调整网卡设置
-1. 参考[《解决wireshark抓热点的包，没有虚拟网卡的问题》](https://codeantenna.com/a/W2ZEol7DZb)，查看网卡配置，果然发现VPN虚拟网卡的连接配置没有勾选NPCAP选项
+1. 参考[《解决wireshark抓热点的包，没有虚拟网卡的问题》](https://codeantenna.com/a/W2ZEol7DZb)，查看网卡配置，发现VPN虚拟网卡的连接配置没有勾选NPCAP选项
 ![20220525180846](https://ldoc-1258951625.cos.ap-shanghai.myqcloud.com/Wireshark网卡无法找到或没有显示的问题/20220525180846.png)
 2. 重启Wireshark或者Wireshark界面选择 `捕获-刷新接口列表（F5）` 即可看到网卡
 
